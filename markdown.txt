@@ -10,18 +10,18 @@ before publishing, it will not be a significant problem.
 
 The following special characters are used in KeyWorks Software Markdown:
 
-#	Indicates a heading -- level is determined by how many # characters are used
+#   Indicates a heading -- level is determined by how many # characters are used
 
--	Indicates a bulleted list item
+-   Indicates a bulleted list item
 
-1.	Indicates a numbered list item (the numbers can repeat, i.e., they can all be 1. -- the list will be renumbered when displayed)
+1.  Indicates a numbered list item (the numbers can repeat, i.e., they can all be 1. -- the list will be renumbered when displayed)
 
-__word__ places the word in bold (this will sometimes be **word** instead, but the '__' is preferred)
+**text** displays the text as bold
 
-_word_ places the word in italics (this will sometimes be *word* instead, but the '_' is preferred)
+_text_ displayes the text as italics
 
-'code' places the code in a code block
+`code` dispalys the text in a monospace font
 
-tab	places the text after the tab in an indented block
+tab places the text after the tab in an indented block
 
-[word](link) the word will be displayed as a hyperlink
+[text](link) displayes the text as a hyperlink
