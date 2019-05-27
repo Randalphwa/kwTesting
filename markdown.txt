@@ -1,0 +1,27 @@
+The ideal way to enter a comment or query that will not be displayed when published, is to use the following exact syntax:
+
+1) Start with a blank line
+2) Enter: "[comment text]: #"
+
+The "comment text" is your comment or query. Nothing must be added after the '#' character.
+
+If that's a problem, simply start a line with "Comment:" or "Query:" followed by the text. As long as it gets removed
+before publishing, it will not be a significant problem.
+
+The following special characters are used in KeyWorks Software Markdown:
+
+#	Indicates a heading -- level is determined by how many # characters are used
+
+-	Indicates a bulleted list item
+
+1.	Indicates a numbered list item (the numbers can repeat, i.e., they can all be 1. -- the list will be renumbered when displayed)
+
+__word__ places the word in bold (this will sometimes be **word** instead, but the '__' is preferred)
+
+_word_ places the word in italics (this will sometimes be *word* instead, but the '_' is preferred)
+
+'code' places the code in a code block
+
+tab	places the text after the tab in an indented block
+
+[word](link) the word will be displayed as a hyperlink
