@@ -20,7 +20,7 @@ The following special characters are used in KeyWorks Software Markdown:
 
 _text_ displayes the text as italics
 
-`code` dispalys the text in a monospace font
+`text` dispalys the text in a monospace font
 
 tab places the text after the tab in an indented block
 
