@@ -1,9 +1,5 @@
-<!--
-	Review https://github.com/KeyWorksRW/KeyWorks/blob/master/docs/CONTRIBUTING.md and ensure all contributing requirements are met.
--->
+### Fixes #
 
-## Fixes #.
-
-
-### Description of the changes:
+### Description:
+<!-- Provide a description of the changes here -->
 
