@@ -1,0 +1,14 @@
+# Requires ttBld.exe version 1.4.0 or higher to process
+
+Options:
+    Project:      kwTesting   # project name
+    Exe_type:     console     # [window | console | lib | dll]
+    Pch:          none        # name of precompiled header file, or "none" if not using precompiledheaders
+    Optimize:     space       # [space | speed] optimization to use in release builds
+    Warn:         4           # [1-4] warning level
+    Crt_rel:      static      # [static | dll] type of CRT to link to in release builds
+    Crt_dbg:      static      # [static | dll] type of CRT to link to in debug builds
+    BuildLibs:    ../ttLib;../kwLib # libraries to build (built in makefile)
+
+Files:
+    mainapp.cpp
