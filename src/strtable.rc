@@ -1,0 +1,15 @@
+// strtable.rc - resources Microsoft Visual C++ does not edit directly
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual Studio
+#endif // APSTUDIO_INVOKED
+
+#include "strtable.h"
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(65001) // UTF-8
+
+STRINGTABLE DISCARDABLE
+BEGIN
+	IDS_USAGE_MSG_HELP		      "display this help message"
+END
