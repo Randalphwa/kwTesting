@@ -1,14 +1,25 @@
-# Requires ttBld.exe version 1.4.0 or higher to process
+# Requires ttBld.exe version 1.5.0 or higher to process
 
 Options:
     Project:      kwTesting   # project name
     Exe_type:     console     # [window | console | lib | dll]
-    Pch:          none        # name of precompiled header file, or "none" if not using precompiledheaders
+    Pch:          pch         # name of precompiled header file, or "none" if not using precompiledheaders
     Optimize:     space       # [space | speed] optimization to use in release builds
     Warn:         4           # [1-4] warning level
-    Crt_rel:      static      # [static | dll] type of CRT to link to in release builds
-    Crt_dbg:      static      # [static | dll] type of CRT to link to in debug builds
-    BuildLibs:    ../ttLib;../kwLib # libraries to build (built in makefile)
+    Crt_rel:      dll      # [static | dll] type of CRT to link to in release builds
+    Crt_dbg:      dll      # [static | dll] type of CRT to link to in debug builds
+
+    CFlags_cmn: -std:c++17 /Zc:__cplusplus
+    CFlags_dbg: /JMC
+
+    TargetDir:   ../bin       # target directory
+
+    Natvis:      ../../ttLib/ttlibwin.natvis  # MSVC Debug visualizer
+
+    IncDirs:     ../../ttLib/include
+    BuildLibs:   ../../ttLib
+
+    MakeDir:     bld/       # auto-generate makefile in specified directory
 
 Files:
     mainapp.cpp
